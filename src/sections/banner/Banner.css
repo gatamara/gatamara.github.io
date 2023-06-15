@@ -1,0 +1,40 @@
+.main-container {
+    background-image: url(../../assets/fondoEstrella.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.main {
+    height: 550px;
+    background-color: rgba(0, 0, 0, .75);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 15px;
+    width: 100%;
+}
+
+.photo-avatar {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    -webkit-box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
+    -moz-box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
+    box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
+}
+
+
+.photo-avatar img {
+    width: 250px;
+    height: auto;
+}

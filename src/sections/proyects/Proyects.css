@@ -1,0 +1,57 @@
+.container-proyect {
+    height: 700px;
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container-card {
+
+    border-radius: 20px;
+    width: 400px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: rgba(255, 1, 158, 0.2) 0px 10px 20px, rgba(255, 0, 179, 0.137) 6px 6px 6px 6px;
+}
+
+.container-card:hover .image {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-card p {
+    padding: 10px;
+    color: white;
+}
+
+.buttons-view {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    place-items: center;
+
+}
+
+.buttons-view button {
+    place-items: center;
+}
+
+.logos-project {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}

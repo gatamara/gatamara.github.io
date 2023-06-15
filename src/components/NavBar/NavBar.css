@@ -1,0 +1,23 @@
+.navbar {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.navbar li {
+    display: inline;
+    padding: 1rem;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.navbar li a:hover {
+    transition: 200ms ease-in;
+    color: #ff5586;
+}

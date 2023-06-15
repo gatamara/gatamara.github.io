@@ -1,0 +1,50 @@
+.container-form {
+    height: 500px;
+    margin-top: 70px;
+    padding: 30px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+textarea:hover {
+    border-color: #ffc5d1;
+}
+
+textarea:focus,
+textarea:focus-visible {
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+input:hover {
+    border-color: #ffc5d1;
+}
+
+input:focus,
+input:focus-visible {
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-bottom: 20px;
+}
