@@ -1,5 +1,5 @@
 import { Button } from "../../components/buttons/Button"
-import imageCartoon from "../../assets/avatar.jpg"
+import imageCartoon from '../../assets/avatar-2.jpg'
 import "./Banner.css"
 import Typewriter from 'typewriter-effect';
 
