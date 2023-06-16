@@ -6,8 +6,8 @@ import Typewriter from 'typewriter-effect';
 export const Banner = () => {
     return (
         <div className='main-container'>
-            <main className='main'>
-                <div className='banner-text'>
+            <main className='opacity'>
+                <div className='banner-container'>
                     <div className='photo-avatar'>
                         <img src={imageCartoon} alt="fotoYO" />
                     </div>
