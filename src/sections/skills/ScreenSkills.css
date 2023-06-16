@@ -1,29 +1,22 @@
 .skills {
     height: 400px;
-    display: grid;
-
 }
 
 .icon-container {
+    margin-top: 55px;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: fit-content;
-
-
+    color: #ff5586;
 }
 
 .icon-box {
     display: flex;
     flex-direction: column;
     text-align: center;
-
 }
 
 .icon-box:hover {
-
-    background-color: #00DBDE;
-    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-
     border-radius: 10px;
+
 }

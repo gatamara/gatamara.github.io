@@ -2,12 +2,10 @@ import './App.css'
 import { Form } from './sections/Form/Form'
 import { NavBar } from './components/NavBar/NavBar'
 import { Banner } from './sections/banner/Banner'
-import { Proyects } from './sections/proyects/Proyects'
 import { ScreenSkills } from './sections/skills/ScreenSkills'
+import { Projects } from './sections/projects/Projects'
 
 function App() {
-
-
   return (
     <div className='container'>
       <header>
@@ -17,12 +15,9 @@ function App() {
         <Banner />
         <ScreenSkills />
 
-        <Proyects />
+        <Projects />
       </section>
       <Form />
-
-
-
     </div>
   )
 }

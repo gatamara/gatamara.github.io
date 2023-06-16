@@ -1,35 +1,43 @@
-.container-proyect {
-    height: 700px;
+.projects {
+    background-color: rgba(0, 0, 0, .75);
+    background-image: url(../../assets/fondoEstrella.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-project {
+    height: 800px;
     display: flex;
     gap: 15px;
     margin: 20px;
     text-align: center;
     display: flex;
     justify-content: space-around;
+}
 
+.box-opacity {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
 
 .container-card {
-
+    background-color: rgba(0, 0, 0, 0.73);
     border-radius: 20px;
     width: 400px;
     height: 700px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding: 10px;
     margin: 10px;
     overflow: hidden;
-    box-shadow: rgba(255, 1, 158, 0.2) 0px 10px 20px, rgba(255, 0, 179, 0.137) 6px 6px 6px 6px;
-}
-
-.container-card:hover .image {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
 }
 
 h2 {
     text-align: center;
+    color: #ff5586;
+    margin: 10px;
 }
 
 .container-card p {
@@ -41,11 +49,6 @@ h2 {
     display: flex;
     gap: 10px;
     justify-content: space-around;
-    place-items: center;
-
-}
-
-.buttons-view button {
     place-items: center;
 }
 

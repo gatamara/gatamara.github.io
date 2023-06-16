@@ -1,11 +1,19 @@
-import "./Button.css"
+import './Button.css'
 
-export const Button = () => {
+
+interface Props {
+    text: string
+    icon?: JSX.Element
+    href?: string
+}
+
+
+export const Button = ({ text, icon, href }: Props) => {
     return (
         <div>
-            <button className='button-cv'>
-                Descargar CV
-            </button>
+            <a href={href} target='_blank' className='button'>
+                {icon}   {text}
+            </a>
         </div>
     )
 }

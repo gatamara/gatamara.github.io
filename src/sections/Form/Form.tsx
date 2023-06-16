@@ -3,6 +3,7 @@ import "./Form.css"
 import { useState } from "react";
 import { GmailLogo } from "../../icons/GmailLogo";
 import { GitHubLogo } from "../../icons/GitHubLogo";
+import { Button } from "../../components/buttons/Button";
 
 
 export const Form = () => {
@@ -47,8 +48,7 @@ export const Form = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         placeholder="Escriba su mensaje aqui"
                     ></textarea>
-
-                    <button type="submit">Enviar</button>
+                    <Button text="Enviar" />
                 </form>
             </div>
 
@@ -64,11 +64,7 @@ export const Form = () => {
                     <a href="https://github.com/gatamara" >
                         <GitHubLogo size={50} color="#ff5586" />
                     </a>
-
-
-
                 </div>
-
             </div>
         </div>
     )

@@ -1,13 +1,11 @@
 body {
   background-color: #000000;
   margin: 0;
-  color: #ff5586;
   font-family: 'Ubuntu', sans-serif;
 }
 
 h1 {
-  color: #CCCCCC;
+  color: #ff5586;
   font-size: 2rem;
   letter-spacing: 1px;
-
 }
