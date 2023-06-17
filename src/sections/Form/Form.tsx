@@ -21,8 +21,8 @@ export const Form = () => {
 
     return (
         <div id="contact" className="container-form">
-            <h1>Contacto</h1>
-            <div >
+            <div className="opacity">
+                <h1>Contacto</h1>
                 <form onSubmit={handleSubmit} className="form" >
 
                     <input
@@ -50,9 +50,6 @@ export const Form = () => {
                     ></textarea>
                     <Button text="Enviar" />
                 </form>
-            </div>
-
-            <div >
                 <h1>Redes Sociales</h1>
                 <div className="social-network ">
                     <a href="https://www.linkedin.com/in/gatamara/" className="social-network" >

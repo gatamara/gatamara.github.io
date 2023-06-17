@@ -13,14 +13,16 @@
 }
 
 main .title {
-    margin: 10px 0;
+    margin: 16px 0;
 }
 
 main p.description {
-    max-width: 660px;
+    max-width: 680px;
     text-align: center;
-    line-height: 1.3em;
-    color: #ccc
+    line-height: 1.5em;
+    color: #DBDDDF;
+    padding-bottom: 16px;
+    letter-spacing: 1.5px;
 }
 
 .banner-container {
@@ -29,7 +31,7 @@ main p.description {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 60px 0;
+    padding: 48px 0;
 }
 
 .photo-avatar {
@@ -48,4 +50,8 @@ main p.description {
 .photo-avatar img {
     width: 250px;
     height: auto;
+}
+
+.span-name {
+    color: #ff5586;
 }

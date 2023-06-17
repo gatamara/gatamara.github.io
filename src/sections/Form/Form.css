@@ -1,9 +1,11 @@
 .container-form {
-    height: 500px;
-    margin-top: 70px;
-    padding: 30px;
-    display: grid;
-    justify-items: center;
+
+    background-image: url(../../assets/FondoGatoNegro.png);
+}
+
+.opacity {
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -11,29 +13,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 500px;
-    gap: 10px;
+    width: 400px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 input,
 textarea {
-    padding: 10px;
+    padding: 16px;
     border-radius: 10px;
-
 }
 
-
 textarea:hover {
-    border-color: #ffc5d1;
+    border-color: #DBDDDF;
 }
 
 textarea:focus,
 textarea:focus-visible {
-    outline: 5px auto -webkit-focus-ring-color;
+    outline: 4px auto -webkit-focus-ring-color;
 }
 
 input:hover {
-    border-color: #ffc5d1;
+    border-color: #DBDDDF;
 }
 
 input:focus,
@@ -41,10 +42,9 @@ input:focus-visible {
     outline: 5px auto -webkit-focus-ring-color;
 }
 
-
 .social-network {
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
-    margin-bottom: 20px;
+    gap: 36px;
+    margin-bottom: 24px;
 }

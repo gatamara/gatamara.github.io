@@ -1,6 +1,6 @@
-import pokedex from "../../assets/pokedex.png"
-import MemoryCat from "../../assets/memoryCat.png"
-import creditCard from "../../assets/tarjetaCredito.png"
+import pokedex from "../../assets/starmi.png"
+import MemoryCat from "../../assets/memory.png"
+import creditCard from "../../assets/card.png"
 import { LogoNavigation } from "./LogoNavigation"
 import "./Projects.css"
 import { HTMLLogo } from "../../icons/HTMLLogo"
@@ -17,43 +17,49 @@ export const CardProject = () => {
     return (
         <>
             <div className="container-card">
-                <img src={MemoryCat} alt="Proyecto Memory Mach " />
+                <div className="container-image-card">
+                    <img src={MemoryCat} alt="Proyecto Memory Mach " />
+                </div>
+
                 <h2> &lt; Memory Match &gt;</h2>
                 <p>Juego web Memory Match: cartas, parejas, animaciones y diversión</p>
                 <div className="logos-project">
-                    <HTMLLogo size={24} color="#fff" />
-                    <CSSLogo size={24} color="#fff" />
-                    <JSLogo size={24} color="#fff" />
-                    <REACTLogo size={24} color="#fff" />
-                    <TypeSLogo size={24} color="#fff" />
-                    <GitLogo size={24} color="#fff" />
-                    <GitHubLogo size={24} color="#fff" />
+                    <HTMLLogo size={24} color="#DBDDDF" />
+                    <CSSLogo size={24} color="#DBDDDF" />
+                    <JSLogo size={24} color="#DBDDDF" />
+                    <REACTLogo size={24} color="#DBDDDF" />
+                    <TypeSLogo size={24} color="#DBDDDF" />
+                    <GitLogo size={24} color="#DBDDDF" />
+                    <GitHubLogo size={24} color="#DBDDDF" />
                 </div>
                 <div className="buttons-view">
                     <Button
                         text="Ver"
-                        icon={<LogoNavigation size={24} color="#fff" />}
+                        icon={<LogoNavigation size={24} color="#FFF" />}
                         href="https://gatamara.github.io/memorycat/"
                     />
                     <Button
                         text="Repo GitHub"
-                        icon={<GitHubLogo size={24} color="#fff" />}
+                        icon={<GitHubLogo size={24} color="#FFF" />}
                         href="https://github.com/gatamara/memorycat"
                     />
                 </div>
             </div>
             <div className="container-card">
-                <img className="image" src={pokedex} alt="Proyecto Pokedex" />
+
+                <div className="container-image-card">
+                    <img src={pokedex} alt="Proyecto Memory Mach " />
+                </div>
                 <h2> &lt; Pokedex React  &gt;</h2>
                 <p>Interfaz Pokémon: información detallada y lista interactiva</p>
                 <div className="logos-project">
-                    <HTMLLogo size={24} color="#fff" />
-                    <CSSLogo size={24} color="#fff" />
-                    <JSLogo size={24} color="#fff" />
-                    <REACTLogo size={24} color="#fff" />
-                    <TypeSLogo size={24} color="#fff" />
-                    <GitLogo size={24} color="#fff" />
-                    <GitHubLogo size={24} color="#fff" />
+                    <HTMLLogo size={24} color="#DBDDDF" />
+                    <CSSLogo size={24} color="#DBDDDF" />
+                    <JSLogo size={24} color="#DBDDDF" />
+                    <REACTLogo size={24} color="#DBDDDF" />
+                    <TypeSLogo size={24} color="#DBDDDF" />
+                    <GitLogo size={24} color="#DBDDDF" />
+                    <GitHubLogo size={24} color="#DBDDDF" />
                 </div>
                 <div className="buttons-view">
                     <Button
@@ -69,17 +75,19 @@ export const CardProject = () => {
                 </div>
             </div>
             <div className="container-card">
-                <img src={creditCard} alt="Proyecto Pokedex" />
+                <div className="container-image-card">
+                    <img src={creditCard} alt="Proyecto Memory Mach " />
+                </div>
                 <h2> &lt; Validador Credit Card  &gt;</h2>
-                <p>Proyecto en React que permite validar el código de una tarjeta de crédito</p>
+                <p>Proyecto que permite validar el código de una tarjeta de crédito</p>
                 <div className="logos-project">
-                    <HTMLLogo size={24} color="#fff" />
-                    <CSSLogo size={24} color="#fff" />
-                    <JSLogo size={24} color="#fff" />
-                    <REACTLogo size={24} color="#fff" />
-                    <TypeSLogo size={24} color="#fff" />
-                    <GitLogo size={24} color="#fff" />
-                    <GitHubLogo size={24} color="#fff" />
+                    <HTMLLogo size={24} color="#DBDDDF" />
+                    <CSSLogo size={24} color="#DBDDDF" />
+                    <JSLogo size={24} color="#DBDDDF" />
+                    <REACTLogo size={24} color="#DBDDDF" />
+                    <TypeSLogo size={24} color="#DBDDDF" />
+                    <GitLogo size={24} color="#DBDDDF" />
+                    <GitHubLogo size={24} color="#DBDDDF" />
                 </div>
                 <div className="buttons-view">
                     <Button

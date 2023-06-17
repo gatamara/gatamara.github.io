@@ -1,60 +1,74 @@
-.projects {
-    background-color: rgba(0, 0, 0, .75);
-    background-image: url(../../assets/fondoEstrella.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .container-project {
-    height: 800px;
     display: flex;
-    gap: 15px;
-    margin: 20px;
+    gap: 16px;
     text-align: center;
     display: flex;
     justify-content: space-around;
+
+}
+
+#projects {
+    padding-top: 16px;
+    background: #212121;
 }
 
 .box-opacity {
-    height: 800px;
+    height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 .container-card {
-    background-color: rgba(0, 0, 0, 0.73);
-    border-radius: 20px;
-    width: 400px;
-    height: 700px;
+    background-color: #151515;
+    border-radius: 16px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    padding: 10px;
-    margin: 10px;
-    overflow: hidden;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 44px;
 }
 
 h2 {
     text-align: center;
-    color: #ff5586;
-    margin: 10px;
+    color: #ffffff;
+    margin-top: 32px;
 }
 
 .container-card p {
-    padding: 10px;
-    color: white;
+    color: #DBDDDF;
+    width: 300px;
+    margin-bottom: 24px;
 }
 
 .buttons-view {
     display: flex;
     gap: 10px;
-    justify-content: space-around;
-    place-items: center;
+    justify-content: center;
+    margin-top: 28px;
 }
 
 .logos-project {
     display: flex;
-    gap: 10px;
+    gap: 16px;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
+}
+
+
+.container-image-card {
+    border: 2px solid #DBDDDF;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 380px;
+    height: 240px;
+}
+
+.container-image-card img {
+    width: 100%;
+    height: auto;
 }

@@ -10,10 +10,8 @@ interface Props {
 
 export const Button = ({ text, icon, href }: Props) => {
     return (
-        <div>
-            <a href={href} target='_blank' className='button'>
-                {icon}   {text}
-            </a>
-        </div>
+        <a href={href} target='_blank' className='button'>
+            {icon}   {text}
+        </a>
     )
 }

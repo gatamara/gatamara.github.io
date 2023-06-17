@@ -12,36 +12,36 @@ import "./ScreenSkills.css"
 export const ScreenSkills = () => {
     return (
         <div className="skills" id="skills">
-            <h1>Skills</h1>
+            <h1 className="title-skills">Skills</h1>
             <div className="icon-container">
                 <div className="icon-box">
                     < GitHubLogo size={100} color="#ff5586" />
-                    <h3> GitHub </h3>
+                    <h3 className="logo-title"> GitHub </h3>
                 </div>
                 <div className="icon-box">
                     <JSLogo size={100} color="#ff5586" />
-                    <h3>JavaScript</h3>
+                    <h3 className="logo-title">JavaScript</h3>
                 </div>
                 <div className="icon-box">
                     < HTMLLogo size={100} color="#ff5586" />
-                    <h3>HTML</h3>
+                    <h3 className="logo-title">HTML</h3>
                 </div>
                 <div className="icon-box">
                     < CSSLogo size={100} color="#ff5586" />
-                    <h3>CSS</h3>
+                    <h3 className="logo-title">CSS</h3>
                 </div>
                 <div className="icon-box">
                     <  REACTLogo size={100} color="#ff5586" />
-                    <h3>React</h3>
+                    <h3 className="logo-title">React</h3>
 
                 </div>
                 <div className="icon-box">
                     <  GitLogo size={100} color="#ff5586" />
-                    <h3>Git</h3>
+                    <h3 className="logo-title">Git</h3>
                 </div>
                 <div className="icon-box">
                     < TypeSLogo size={100} color="#ff5586" />
-                    <h3>TypeScript</h3>
+                    <h3 className="logo-title">TypeScript</h3>
                 </div>
             </div>
         </div>
