@@ -64,7 +64,7 @@ h2 {
     border: 2px solid #DBDDDF;
     overflow: hidden;
     border-radius: 10px;
-    width: 380px;
+    max-width: 380px;
     height: 240px;
 }
 
