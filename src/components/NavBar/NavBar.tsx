@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./NavBar.css"
-import { LogoLinkedin } from "../../sections/Form/LogoLinkedin";
+
 
 
 export const NavBar = () => {

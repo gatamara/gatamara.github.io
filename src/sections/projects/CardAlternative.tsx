@@ -1,6 +1,4 @@
 import MemoryCat from "../../assets/3.png"
-import catBakc from "../../assets/1.png"
-import caricature from "../../assets/2.png"
 import credit from "../../assets/5.png"
 import pokes from "../../assets/4.png"
 import "./CardAlternative.css"
