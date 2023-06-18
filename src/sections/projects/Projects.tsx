@@ -1,5 +1,5 @@
 import { CardAlternative } from "./CardAlternative"
-import "./Projects.css"
+import "./CardAlternative.css"
 
 
 export const Projects = () => {
