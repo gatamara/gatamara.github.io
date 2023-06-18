@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import './Button.css'
 
 
@@ -5,12 +6,34 @@ interface Props {
     text: string
     icon?: JSX.Element
     href?: string
+    backgroundColor?: string
+    color?: string
+    borderColor?: string
+    classname?: string
 }
 
 
-export const Button = ({ text, icon, href }: Props) => {
+export const Button = ({ text, icon, href, backgroundColor, color, borderColor }: Props) => {
+
+
+    const [isHover, setIsHover] = useState(false);
+
+    const handleMouseEnter = () => {
+        setIsHover(true);
+    };
+    const handleMouseLeave = () => {
+        setIsHover(false);
+    };
+
     return (
-        <a href={href} target='_blank' className='button'>
+        <a
+            href={href}
+            target='_blank'
+            className='button'
+            style={{ backgroundColor: backgroundColor, color: color, borderColor: isHover ? "white" : borderColor }}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+        >
             {icon}   {text}
         </a>
     )

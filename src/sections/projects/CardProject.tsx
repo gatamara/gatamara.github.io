@@ -1,5 +1,5 @@
 import pokedex from "../../assets/starmi.png"
-import MemoryCat from "../../assets/memory.png"
+import MemoryCat from "../../assets/3.png"
 import creditCard from "../../assets/card.png"
 import { LogoNavigation } from "./LogoNavigation"
 import "./Projects.css"
@@ -35,13 +35,19 @@ export const CardProject = () => {
                 <div className="buttons-view">
                     <Button
                         text="Ver"
-                        icon={<LogoNavigation size={24} color="#FFF" />}
+                        icon={<LogoNavigation size={24} color="#ff5586" />}
                         href="https://gatamara.github.io/memorycat/"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                     <Button
                         text="Repo GitHub"
-                        icon={<GitHubLogo size={24} color="#FFF" />}
+                        icon={<GitHubLogo size={24} color="#ff5586" />}
                         href="https://github.com/gatamara/memorycat"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                 </div>
             </div>
@@ -64,13 +70,19 @@ export const CardProject = () => {
                 <div className="buttons-view">
                     <Button
                         text="Ver"
-                        icon={<LogoNavigation size={24} color="#fff" />}
+                        icon={<LogoNavigation size={24} color="#ff5586" />}
                         href="https://gatamara.github.io/pokedex-react/"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                     <Button
                         text="Repo GitHub"
-                        icon={<GitHubLogo size={24} color="#fff" />}
+                        icon={<GitHubLogo size={24} color="#ff5586" />}
                         href="https://github.com/gatamara/pokedex-react"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                 </div>
             </div>
@@ -92,13 +104,19 @@ export const CardProject = () => {
                 <div className="buttons-view">
                     <Button
                         text="Ver"
-                        icon={<LogoNavigation size={24} color="#fff" />}
+                        icon={<LogoNavigation size={24} color="#ff5586" />}
                         href="https://gatamara.github.io/credit-card-validator/"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                     <Button
                         text="Repo GitHub"
-                        icon={<GitHubLogo size={24} color="#fff" />}
+                        icon={<GitHubLogo size={24} color="#ff5586" />}
                         href="https://github.com/gatamara/credit-card-validator"
+                        backgroundColor="transparent"
+                        color="#ff5586"
+                        borderColor="#ff5586"
                     />
                 </div>
             </div>

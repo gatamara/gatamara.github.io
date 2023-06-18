@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./NavBar.css"
+import { LogoLinkedin } from "../../sections/Form/LogoLinkedin";
 
 
 export const NavBar = () => {
@@ -21,7 +22,9 @@ export const NavBar = () => {
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Proyectos</a></li>
                 <li><a href="#contact">Contacto</a></li>
+
             </ul>
+
         </nav>
     )
 }

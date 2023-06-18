@@ -1,12 +1,15 @@
 .container-form {
 
     background-image: url(../../assets/FondoGatoNegro.png);
+
 }
 
 .opacity {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 16px;
+
 }
 
 .form {
@@ -22,6 +25,7 @@ input,
 textarea {
     padding: 16px;
     border-radius: 10px;
+
 }
 
 textarea:hover {
@@ -47,4 +51,10 @@ input:focus-visible {
     justify-content: space-evenly;
     gap: 36px;
     margin-bottom: 24px;
+}
+
+@media (max-width:420px) {
+    .form {
+        width: 320px;
+    }
 }

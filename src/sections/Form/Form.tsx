@@ -48,7 +48,10 @@ export const Form = () => {
                         onChange={(e) => setMessage(e.target.value)}
                         placeholder="Escriba su mensaje aqui"
                     ></textarea>
-                    <Button text="Enviar" />
+                    <Button text="Enviar"
+                        backgroundColor="#ff5586"
+                        color="#fff"
+                        borderColor="#ff5586" />
                 </form>
                 <h1>Redes Sociales</h1>
                 <div className="social-network ">

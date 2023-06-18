@@ -1,14 +1,13 @@
-import { CardProject } from "./CardProject"
+import { CardAlternative } from "./CardAlternative"
+import "./Projects.css"
 
 
 export const Projects = () => {
     return (
-        <div id="projects">
+        <div className="projects">
             <h1> Proyectos</h1>
-            <div className="container-project">
-                <div className="box-opacity">
-                    <CardProject />
-                </div>
+            <div className="box-opacity">
+                <CardAlternative />
             </div>
         </div>
     )
