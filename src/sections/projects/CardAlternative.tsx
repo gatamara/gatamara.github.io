@@ -16,6 +16,7 @@ import { LogoNavigation } from "./LogoNavigation"
 export const CardAlternative = () => {
     return (
         <div className="project">
+            <h1> Proyectos</h1>
             <div className="container-card">
                 <div className="card">
                     <div className="poster">
