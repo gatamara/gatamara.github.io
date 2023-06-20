@@ -1,9 +1,10 @@
-import { Button } from "../../components/buttons/Button"
 import imageCartoon from '../../assets/avatar-2.jpg'
 import "./Banner.css"
 import Typewriter from 'typewriter-effect';
+import { ButtonCV } from "../../components/buttons/ButtonCV";
 
 export const Banner = () => {
+
     return (
         <>
 
@@ -25,7 +26,7 @@ export const Banner = () => {
                         </h1>
                         <h1 className="title"> &lt; name: <span className="span-name">Tamara Salinas</span>  &gt; </h1>
                         <p className="description">Desarrolladora junior frontend con experiencia en la creación de interfaces de usuario atractivas y funcionales. Poseo habilidades sólidas en HTML, CSS, JavaScript. TypeScript y ReactJS, y me gusta utilizar mi conocimiento para construir experiencias web de alta calidad. </p>
-                        <Button text="Descargar CV" backgroundColor="#ff5586" borderColor="#ff5586" />
+                        <ButtonCV text="Descargar CV" backgroundColor="#ff5586" borderColor="#ff5586" />
                     </div>
                 </main>
             </div>

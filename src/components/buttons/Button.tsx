@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './Button.css'
 
-
 interface Props {
     text: string
     icon?: JSX.Element
@@ -10,10 +9,12 @@ interface Props {
     color?: string
     borderColor?: string
     classname?: string
+
 }
 
 
 export const Button = ({ text, icon, href, backgroundColor, color, borderColor }: Props) => {
+
 
 
     const [isHover, setIsHover] = useState(false);
@@ -30,7 +31,7 @@ export const Button = ({ text, icon, href, backgroundColor, color, borderColor }
             href={href}
             target='_blank'
             className='button'
-            style={{ backgroundColor: backgroundColor, color: color, borderColor: isHover ? "white" : borderColor }}
+            style={{ backgroundColor: isHover ? "black" : backgroundColor, color: color, borderColor: isHover ? "#ff5586" : borderColor }}
             onMouseEnter={handleMouseEnter}
             onMouseLeave={handleMouseLeave}
         >
