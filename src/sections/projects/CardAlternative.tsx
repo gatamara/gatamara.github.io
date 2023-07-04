@@ -1,6 +1,7 @@
 import MemoryCat from "../../assets/3.png"
 import credit from "../../assets/5.png"
 import pokes from "../../assets/4.png"
+import formik from "../../assets/6.png"
 import "./CardAlternative.css"
 import { HTMLLogo } from "../../icons/HTMLLogo"
 import { CSSLogo } from "../../icons/CSSLogo"
@@ -134,6 +135,46 @@ export const CardAlternative = () => {
                     </div>
 
                 </div>
+
+                <div className="card">
+                    <div className="poster">
+                        <img className="card-img" src={formik} alt="formulario" />
+                    </div>
+                    <div className="details">
+                        <h2> &lt; Formik &gt;</h2>
+                        <p>Formulario tipo creado con libreria Formik</p>
+                        <div className="logos-project">
+                            <HTMLLogo size={24} color="#DBDDDF" />
+                            <CSSLogo size={24} color="#DBDDDF" />
+                            <JSLogo size={24} color="#DBDDDF" />
+                            <REACTLogo size={24} color="#DBDDDF" />
+                            <TypeSLogo size={24} color="#DBDDDF" />
+                            <GitLogo size={24} color="#DBDDDF" />
+                            <GitHubLogo size={24} color="#DBDDDF" />
+                        </div>
+                        <div className="buttons-view">
+                            <Button
+                                text="Ver"
+                                icon={<LogoNavigation size={24} color="#fff" />}
+                                href="https://gatamara.github.io/form-formik/"
+                                backgroundColor="#ff5586"
+                                color="#fff"
+                                borderColor="#ff5586"
+                                classname='button'
+                            />
+                            <Button
+                                text="Repositorio"
+                                icon={<GitHubLogo size={24} color="#fff" />}
+                                href="https://github.com/gatamara/form-formik"
+                                backgroundColor="#ff5586"
+                                color="#fff"
+                                borderColor="#ff5586"
+                            />
+                        </div>
+                    </div>
+
+                </div>
+
 
             </div>
 

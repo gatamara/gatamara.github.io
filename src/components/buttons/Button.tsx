@@ -15,8 +15,6 @@ interface Props {
 
 export const Button = ({ text, icon, href, backgroundColor, color, borderColor }: Props) => {
 
-
-
     const [isHover, setIsHover] = useState(false);
 
     const handleMouseEnter = () => {
