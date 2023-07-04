@@ -58,7 +58,7 @@ export const Form = () => {
                     <a href="https://www.linkedin.com/in/gatamara/" className="social-network" >
                         <LogoLinkedin size={50} color="#ff5586" />
                     </a>
-                    <a href="mailto:gatamara29@gmail.com">
+                    <a href="mailto:dev.tamara29@gmail.com">
                         <GmailLogo size={50} color="#ff5586" />
                     </a>
                     <a href="https://github.com/gatamara" >
