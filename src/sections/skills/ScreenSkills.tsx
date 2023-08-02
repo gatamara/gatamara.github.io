@@ -5,6 +5,7 @@ import { HTMLLogo } from "../../icons/HTMLLogo"
 import { JSLogo } from "../../icons/JSLogo"
 import { REACTLogo } from "../../icons/REACTLogo"
 import { TypeSLogo } from "../../icons/TypeSLogo"
+import { TailwindLogo } from "../../icons/Tailwinds"
 
 import "./ScreenSkills.css"
 
@@ -42,6 +43,10 @@ export const ScreenSkills = () => {
                 <div className="icon-box">
                     < TypeSLogo size={100} color="#ff5586" />
                     <h3 className="logo-title">TypeScript</h3>
+                </div>
+                <div className="icon-box">
+                    <TailwindLogo size={100} color="#ff5586"/>
+                    <h3 className="logo-title">Tailwindcss</h3>
                 </div>
             </div>
         </div>
