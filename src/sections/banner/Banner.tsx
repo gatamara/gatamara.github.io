@@ -1,4 +1,4 @@
-import imageCartoon from '../../assets/avatar-2.jpg'
+import imageCartoon from '../../assets/2.png'
 import "./Banner.css"
 import Typewriter from 'typewriter-effect';
 import { ButtonCV } from "../../components/buttons/ButtonCV";

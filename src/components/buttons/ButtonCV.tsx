@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './Button.css'
-import cvPDF from '/TamaraDev.pdf'
+import cvPDF from '/tamaraSalinas.pdf'
 
 
 interface Props {

@@ -22,8 +22,8 @@ export const Form = () => {
     return (
         <div id="contact" className="container-form">
             <div className="opacity">
-                <h1>Contacto</h1>
-                <form onSubmit={handleSubmit} className="form" >
+                <h1> </h1>
+                {/* <form onSubmit={handleSubmit} className="form" >
 
                     <input
                         type="text"
@@ -52,8 +52,8 @@ export const Form = () => {
                         backgroundColor="#ff5586"
                         color="#fff"
                         borderColor="#ff5586" />
-                </form>
-                <h1>Redes Sociales</h1>
+                </form> */}
+                <h1>Contáctame en mis Redes Sociales</h1>
                 <div className="social-network ">
                     <a href="https://www.linkedin.com/in/gatamara/" className="social-network" >
                         <LogoLinkedin size={50} color="#ff5586" />
