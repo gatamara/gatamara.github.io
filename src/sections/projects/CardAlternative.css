@@ -1,111 +1,144 @@
 .box-opacity {
-    height: fit-content;
-    background: #212121;
-    padding: 28px ;
+  height: fit-content;
+  background: #212121;
+  padding: 28px;
 }
-
 
 .container-card {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    gap: 40px;
-    padding: 16px;
-    margin-bottom: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 40px;
+  padding: 16px;
+  margin-bottom: 28px;
 }
 
-
 .card {
-    position: relative;
-    width: 350px;
-    height: 350px;
-    border-radius: 8px;
-    box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
-    cursor: pointer;
-    overflow: hidden;
-
+  position: relative;
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 15px 35px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .card .poster {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .card .poster::before {
-    content: '';
-    position: absolute;
-    bottom: -120px;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(0deg, #212121 50%, transparent);
-    transition: 0.5s;
-    z-index: 1;
+  content: "";
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, #212121 50%, transparent);
+  transition: 0.5s;
+  z-index: 1;
 }
 
 .card:hover .poster::before {
-    bottom: 0;
+  bottom: 0;
 }
 
 .card-img {
-    width: 100%;
-    transition: 0.5s;
+  width: 100%;
+  transition: 0.5s;
 }
 
 .card:hover .card-img {
-    transform: translateY(-50px);
-    filter: blur(5px);
+  transform: translateY(-50px);
+  filter: blur(5px);
 }
 
 .card .details {
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-    padding: 16px;
-    z-index: 2;
-    transition: 0.5s;
-
-
-    color: #fff;
-    /* display: none; */
-
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  padding: 16px;
+  z-index: 2;
+  transition: 0.5s;
+  color: #fff;
+  /* display: none; */
 }
 
 .card:hover .details {
-    bottom: 0px;
-    /* display: block; */
+  bottom: 0px;
+  /* display: block; */
 }
 
 .card .details h2 {
-
-    color: #fff;
-    display: flex;
-    justify-content: space-around;
-
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
 }
 
 .card .details p {
-    max-width: 300px;
-    text-align: center;
-    opacity: .8;
+  max-width: 300px;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 1rem;
 }
 
 .card .details .logos-project {
-    position: relative;
-    padding: 8px 0;
-    display: flex;
-    justify-content: flex-start;
-    gap: 24px;
-
+  position: relative;
+  padding: 8px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 24px;
 }
 
 .card .details .buttons-view {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 8px;
-    gap: 16px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 8px;
+  gap: 16px;
+}
 
+@media (max-width: 768px) {
+  .card {
+    width: 300px;
+    height: 300px;
+  }
+
+  .card .details h2 {
+    font-size: 1.2rem; /* Tamaño del título más pequeño */
+  }
+
+  .card .details p {
+    font-size: 0.9rem;
+  }
+
+  .card .details .logos-project {
+    gap: 16px;
+  }
+
+  .card .details .buttons-view {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .card .details {
+    padding: 12px;
+  }
+
+  .card .details h2 {
+    font-size: 1rem;
+  }
+
+  .card .details p {
+    font-size: 0.8rem;
+  }
 }

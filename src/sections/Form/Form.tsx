@@ -14,8 +14,7 @@ export const Form = () => {
     const handleSubmit = (e: any) => {
 
         e.preventDefault();
-        // Aquí puedes agregar la lógica para enviar el formulario de contacto
-        // por ejemplo, enviar los datos a un servidor o realizar alguna acción adicional
+      
         console.log('Formulario enviado');
     };
 
@@ -53,7 +52,7 @@ export const Form = () => {
                         color="#fff"
                         borderColor="#ff5586" />
                 </form> */}
-                <h1>Contáctame en mis Redes Sociales</h1>
+                <h1 className="p-4 md:p-8 font-semibold bg-gradient-to-r from-violet-50 to-pink-500 bg-clip-text text-transparent uppercase">Contáctame en mis Redes Sociales</h1>
                 <div className="social-network ">
                     <a href="https://www.linkedin.com/in/gatamara/" className="social-network" >
                         <LogoLinkedin size={50} color="#ff5586" />

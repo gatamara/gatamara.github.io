@@ -5,6 +5,7 @@ import formik from "../../assets/6.png"
 import gifs from "../../assets/git-app.png"
 import shop from "../../assets/shop.png"
 import expense from "../../assets/7.png"
+import patina from "../../assets/8.png"
 import "./CardAlternative.css"
 import { HTMLLogo } from "../../icons/HTMLLogo"
 import { CSSLogo } from "../../icons/CSSLogo"
@@ -20,7 +21,7 @@ import { LogoNavigation } from "./LogoNavigation"
 export const CardAlternative = () => {
     return (
         <div className="project">
-            <h1> Proyectos</h1>
+            <h1 className="p-8 font-semibold bg-gradient-to-r from-violet-50 to-pink-500 bg-clip-text text-transparent uppercase"> Proyectos</h1>
             <div className="container-card">
                 <div className="card">
                     <div className="poster">
@@ -285,6 +286,45 @@ export const CardAlternative = () => {
                                 text="Repositorio"
                                 icon={<GitHubLogo size={24} color="#fff" />}
                                 href="https://github.com/gatamara/carrito-compras"
+                                backgroundColor="#ff5586"
+                                color="#fff"
+                                borderColor="#ff5586"
+                            />
+                        </div>
+                    </div>
+
+                </div>
+
+                <div className="card">
+                    <div className="poster">
+                        <img className="card-img" src={patina} alt="formulario" />
+                    </div>
+                    <div className="details">
+                        <h2> &lt; Patina.cl &gt;</h2>
+                        <p>Pagina para agregar spots, eventos y clases de skate</p>
+                        <div className="logos-project">
+                            <HTMLLogo size={24} color="#DBDDDF" />
+                            <CSSLogo size={24} color="#DBDDDF" />
+                            <JSLogo size={24} color="#DBDDDF" />
+                            <REACTLogo size={24} color="#DBDDDF" />
+                            <TypeSLogo size={24} color="#DBDDDF" />
+                            <GitLogo size={24} color="#DBDDDF" />
+                            <GitHubLogo size={24} color="#DBDDDF" />
+                        </div>
+                        <div className="buttons-view">
+                            <Button
+                                text="Ver"
+                                icon={<LogoNavigation size={24} color="#fff" />}
+                                href="https://patina.cl"
+                                backgroundColor="#ff5586"
+                                color="#fff"
+                                borderColor="#ff5586"
+                                classname='button'
+                            />
+                            <Button
+                                text="Repositorio"
+                                icon={<GitHubLogo size={24} color="#fff" />}
+                                href="https://github.com/gatamara/"
                                 backgroundColor="#ff5586"
                                 color="#fff"
                                 borderColor="#ff5586"

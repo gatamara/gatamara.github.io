@@ -13,7 +13,7 @@ import "./ScreenSkills.css"
 export const ScreenSkills = () => {
     return (
         <div className="skills" id="skills">
-            <h1 className="title-skills">Skills</h1>
+            <h1 className="p-8 font-semibold bg-gradient-to-r from-violet-50 to-pink-500 bg-clip-text text-transparent uppercase">Skills</h1>
             <div className="icon-container">
                 <div className="icon-box">
                     < GitHubLogo size={100} color="#ff5586" />
