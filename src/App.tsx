@@ -1,4 +1,4 @@
-import './App.css'
+
 import { Form } from './sections/Form/Form'
 import { Banner } from './sections/banner/Banner'
 import { ScreenSkills } from './sections/skills/ScreenSkills'
@@ -7,7 +7,7 @@ import { NavBar } from './components/NavBar/NavBar'
 
 function App() {
   return (
-    <div className='container'>
+    <div >
       <NavBar />
       <header>
       </header>

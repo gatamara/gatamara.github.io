@@ -1,7 +1,7 @@
 .box-opacity {
     height: fit-content;
     background: #212121;
-    padding: 16px 0 40px 0;
+    padding: 28px ;
 }
 
 
@@ -12,6 +12,8 @@
     justify-content: center;
     width: 100%;
     gap: 40px;
+    padding: 16px;
+    margin-bottom: 28px;
 }
 
 

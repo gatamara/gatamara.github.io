@@ -1,7 +1,5 @@
 .container-form {
-
-    background-image: url(../../assets/FondoGatoNegro.png);
-
+    background-image: url(../../assets/FondoGatoNegro.png);  
 }
 
 .opacity {
@@ -19,6 +17,7 @@
     width: 400px;
     gap: 16px;
     flex-wrap: wrap;
+   
 }
 
 input,
