@@ -24,7 +24,7 @@ export const VueLogo = ({ size, color }: Props) => {
         ></path>
         <path
           d="M50.56,0 L128,133.12 L204.8,0 L157.44,0 L128,51.2 L97.92,0 L50.56,0 Z"
-          fill="#b1a3a7"
+          fill="#ff88aa"
         ></path>
       </g>
     </svg>

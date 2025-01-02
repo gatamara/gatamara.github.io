@@ -13,7 +13,7 @@ import { VueLogo } from "../../icons/VueLogo";
 export const CardProject = () => {
   return (
     <div className="project">
-      <h1 className="p-8 font-semibold bg-gradient-to-r from-green-500 to-sky-600 bg-clip-text text-transparent uppercase">
+      <h1 className="p-8 font-bold bg-gradient-to-r from-green-500 to-sky-600 bg-clip-text text-transparent uppercase">
         {" "}
         Proyectos Vue.js
       </h1>
@@ -38,7 +38,7 @@ export const CardProject = () => {
               <Button
                 text="Ver"
                 icon={<LogoNavigation size={24} color="#fff" />}
-                href="https://gatamara.github.io/memorycat/"
+                href="https://github.com/gatamara/indecisionApp"
                 backgroundColor="#ff5586"
                 color="#fff"
                 borderColor="#ff5586"
