@@ -9,6 +9,7 @@ import { GitLogo } from "../../icons/GitLogo";
 import { GitHubLogo } from "../../icons/GitHubLogo";
 import { Button } from "../../components/buttons/Button";
 import { VueLogo } from "../../icons/VueLogo";
+import pokegame from "../../assets/pokegame.png";
 
 export const CardProject = () => {
   return (
@@ -48,6 +49,44 @@ export const CardProject = () => {
                 text="Repositorio"
                 icon={<GitHubLogo size={24} color="#fff" />}
                 href="https://github.com/gatamara/indecisionApp"
+                backgroundColor="#ff5586"
+                color="#fff"
+                borderColor="#ff5586"
+              />
+            </div>
+          </div>
+        </div>
+        {/* Card */}
+        <div className="card">
+          <div className="poster">
+            <img className="card-img" src={pokegame} alt="memorycat" />
+          </div>
+          <div className="details">
+            <h2> &lt; Pokemon Game &gt;</h2>
+            <p>Juego de Quien es ese Pokemon ? con consumo de PokeApi</p>
+            <div className="logos-project">
+              <HTMLLogo size={24} color="#DBDDDF" />
+              <CSSLogo size={24} color="#DBDDDF" />
+              <JSLogo size={24} color="#DBDDDF" />
+              <VueLogo size={24} color="#DBDDDF" />
+              <TypeSLogo size={24} color="#DBDDDF" />
+              <GitLogo size={24} color="#DBDDDF" />
+              <GitHubLogo size={24} color="#DBDDDF" />
+            </div>
+            <div className="buttons-view">
+              <Button
+                text="Ver"
+                icon={<LogoNavigation size={24} color="#fff" />}
+                href="https://poke-game-tamara.netlify.app/"
+                backgroundColor="#ff5586"
+                color="#fff"
+                borderColor="#ff5586"
+                classname="button"
+              />
+              <Button
+                text="Repositorio"
+                icon={<GitHubLogo size={24} color="#fff" />}
+                href="https://github.com/gatamara/pokemon-game"
                 backgroundColor="#ff5586"
                 color="#fff"
                 borderColor="#ff5586"
