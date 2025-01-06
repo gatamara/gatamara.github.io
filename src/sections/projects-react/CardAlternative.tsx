@@ -6,6 +6,7 @@ import gifs from "../../assets/git-app.png";
 import shop from "../../assets/shop.png";
 import expense from "../../assets/7.png";
 import patina from "../../assets/8.png";
+import publicate from "../../assets/publicateer.png";
 import "./CardAlternative.css";
 import { HTMLLogo } from "../../icons/HTMLLogo";
 import { CSSLogo } from "../../icons/CSSLogo";
@@ -25,6 +26,43 @@ export const CardAlternative = () => {
         Proyectos React
       </h1>
       <div className="container-card">
+        <div className="card">
+          <div className="poster">
+            <img className="card-img" src={publicate} alt="formulario" />
+          </div>
+          <div className="details">
+            <h2> &lt; Publicate.cl &gt;</h2>
+            <p>Pagina creada para empresa de Marketing Digital</p>
+            <div className="logos-project">
+              <HTMLLogo size={24} color="#DBDDDF" />
+              <CSSLogo size={24} color="#DBDDDF" />
+              <JSLogo size={24} color="#DBDDDF" />
+              <REACTLogo size={24} color="#DBDDDF" />
+              <TypeSLogo size={24} color="#DBDDDF" />
+              <GitLogo size={24} color="#DBDDDF" />
+              <GitHubLogo size={24} color="#DBDDDF" />
+            </div>
+            <div className="buttons-view">
+              <Button
+                text="Ver"
+                icon={<LogoNavigation size={24} color="#fff" />}
+                href="https://publicate.cl"
+                backgroundColor="#ff5586"
+                color="#fff"
+                borderColor="#ff5586"
+                classname="button"
+              />
+              <Button
+                text="Repositorio"
+                icon={<GitHubLogo size={24} color="#fff" />}
+                href="https://github.com/gatamara/"
+                backgroundColor="#ff5586"
+                color="#fff"
+                borderColor="#ff5586"
+              />
+            </div>
+          </div>
+        </div>
         <div className="card">
           <div className="poster">
             <img className="card-img" src={MemoryCat} alt="memorycat" />
