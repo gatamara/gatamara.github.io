@@ -1,11 +1,10 @@
-import { CardAlternative } from "./CardAlternative"
-import "./CardAlternative.css"
-
+import { CardReact } from "./CardReact";
+import "./CardAlternative.css";
 
 export const Projects = () => {
-    return (
-        <div className="box-opacity" id="projects">
-            <CardAlternative />
-        </div>
-    )
-}
+  return (
+    <div className="box-opacity" id="projects">
+      <CardReact />
+    </div>
+  );
+};
