@@ -3,7 +3,7 @@ import credit from "../../assets/5.png";
 import pokes from "../../assets/4.png";
 import formik from "../../assets/6.png";
 import gifs from "../../assets/git-app.png";
-import shop from "../../assets/shop.png";
+// import shop from "../../assets/shop.png";
 import expense from "../../assets/7.png";
 import patina from "../../assets/8.png";
 import publicate from "../../assets/publicateer.png";
@@ -197,7 +197,7 @@ export const CardReact = () => {
             </div>
           </div>
         </a>
-        <a href="https://gatamara.github.io/carrito-compras/" target="_blank">
+        {/* <a href="https://gatamara.github.io/carrito-compras/" target="_blank">
           <div className="card">
             <div className="poster">
               <img className="card-img" src={shop} alt="formulario" />
@@ -222,7 +222,7 @@ export const CardReact = () => {
               </div>
             </div>
           </div>
-        </a>
+        </a> */}
         <a href="https://patina.cl" target="_blank">
           <div className="card">
             <div className="poster">
