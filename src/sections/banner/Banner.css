@@ -5,7 +5,7 @@
 }
 
 .opacity {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -39,9 +39,9 @@ main .title {
   height: 250px;
   overflow: hidden;
   border-radius: 50%;
-  -webkit-box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
+  /* -webkit-box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
   -moz-box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
-  box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 1);
+  box-shadow: 3px -2px 47px 17px rgba(255, 85, 134, 0.5); */
   margin-bottom: 40px;
 }
 
